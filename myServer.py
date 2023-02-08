@@ -28,8 +28,8 @@ import numpy as np
 
 #uvicorn myServer:app --reload
 
-#templates = Jinja2Templates(directory="../templates")
-templates = Jinja2Templates(directory="./")
+templates = Jinja2Templates(directory="./templates")
+
 
 app = FastAPI()
 
